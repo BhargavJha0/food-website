@@ -1,0 +1,230 @@
+body {
+  background-image: url(/vino-li-gGX1fJkmw3k-unsplash.jpg);
+  color: white;
+  transition: all 0s ease 0s;
+  
+  
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 4px 2px 4px rgb(161, 161, 245);
+  transition: all 1s ease-in-out 3s;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 12px 13px;
+  margin: 12px;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 5px 6px white;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  transform: scale(23px);
+}
+.about {
+  border: 2px solid yellow;
+  border-radius: 23px;
+  width: 100%;
+  height: 600px;
+  background-image: url(/about/bg10.png);
+  animation-name: animate;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate {
+  0% {
+    background-image: url(/about/bg8.png);
+  }
+  30% {
+    background-image: url(/about/bg9.png);
+  }
+  60% {
+    background-image: url(/about/bg11.png);
+  }
+  90% {
+    background-image: url(/about/bg10.png);
+  }
+}
+h2 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.container {
+  display: flex;
+  
+  border: 2px solid white;
+  flex-wrap: wrap;
+}
+.box {
+  box-sizing: border-box;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #ffffff;
+  transition: transform 0.6s;
+}
+.box:hover
+{
+    transform: rotateY(180deg); 
+}
+#box1 {
+  background-image: url(/img/pizza.jpg);
+  background-size: cover;
+  transition: transform 0.6s;
+  
+}
+#box1:hover{
+  transition: transform 0.6s;
+  transform: rotateY('180deg');
+}
+#box2 {
+  background-image: url(/img/burger.jpg);
+  background-size: cover;
+}
+#box3 {
+  background-image: url(/img/beverage.jpg);
+  background-size: cover;
+}
+#box4 {
+  background-image: url(/img/dessert.jpg);
+  background-size: cover;
+  width: 450px;
+}
+#start {
+  width: 200px;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgb(128, 252, 128);
+  color: white;
+  align-items: flex-end;
+}
+/* .FORM
+{
+    margin-top: 23px;
+    border: 2px solid yellow;
+    border-radius: 19px;
+    width: 33%;
+    height: 1100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    box-shadow: 8px 8px 12px rgb(198, 135, 247);
+    backdrop-filter: blur(25px);
+    flex-wrap: wrap;
+    
+} */
+
+.orderForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(246, 143, 246);
+  border-radius: 23px;
+  box-shadow: 2px 2px 15px violet;
+  background-image: url(/cute-1873.gif);
+  background-size: cover;
+  
+}
+
+
+
+h4 {
+  font-size: 4em;
+  font-weight: 100;
+  text-shadow: 4px 2px 3px #ffffff;
+  text-align: center;
+}
+.inputype {
+  width: 30%;
+  text-align: center;
+  font-size: 2em;
+}
+
+#but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  width: 33%;
+  background-color: green;
+  color: blueviolet;
+}
+.FORM p {
+  font-size: 1.8em;
+  float: left;
+  font-family: cursive;
+}
+#but:hover {
+  background-color: red;
+  color: yellow;
+}
+@media (min-width :375px) and (max-width: 800px) {
+  body{
+    background-color: blue;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+  
+}
+.navbar a:hover {
+  background-color: rgb(250, 148, 148);
+  color: black;
+  transform: scale(23px);
+  cursor: pointer;
+}
+.container {
+  display: flex;
+ 
+  
+  border: 2px solid white;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+@media (min-width:768px)  and (max-width:1024px){
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+  } 
+  h1{
+    text-align: center;
+    font-size: medium;
+  }
+  
+}
+.burger{
+  border: 2px solid black;
+  width: 300px;
+ height: 300px;
+ background-color: white;
+}
+.burger:hover{
+  background-image: url(/img/burger.gif);
+}
+
+
+
+
+
